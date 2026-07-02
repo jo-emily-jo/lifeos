@@ -1,8 +1,25 @@
-# Life OS — Analyzer (Next.js)
+# Life OS — Analyzer
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19-149eca?logo=react)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript)](https://www.typescriptlang.org/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
 A production-ready Next.js port of the Life OS Analyzer prototype — a
 **private judgment file** that co-authors an interpretation of a life's
 operating system. Not a personality test, not coaching: an intelligent mirror.
+
+## Contents
+
+- [Stack](#stack)
+- [Setup](#setup)
+- [Architecture](#architecture)
+- [Report taxonomy](#report-taxonomy-case-file-ai-then-the-constitution)
+- [Design law](#design-law)
+- [Live AI](#live-ai)
+- [Contributing](#contributing)
+- [License](#license)
 
 ## Stack
 - **Next.js 15** App Router · **React 19** · **TypeScript**
@@ -82,3 +99,13 @@ Co-interpretation is the heart: as you answer, evidence-backed **hypotheses**
 surface in the right rail, each one yours to agree with, refine in your own
 words, or reject — every response updates confidence. The two AI questions use
 `lib/claude.ts` (live `window.claude` with authored fallback).
+
+## Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for
+development setup, conventions, and the pull-request process. Bug reports and
+feature requests go through the [issue templates](.github/ISSUE_TEMPLATE).
+
+## License
+
+Released under the [MIT License](LICENSE). © 2026 Emily Jo.
